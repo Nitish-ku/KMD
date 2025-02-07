@@ -75,3 +75,31 @@ html,body{
     background-color: palevioletred;
     color: black;
 }
+
+@media screen and (max-width:680px){
+    .text{
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        color: black;
+        font-size: 17px;
+        letter-spacing: 8px;
+        text-transform: uppercase;
+    }
+
+}
+
+@media screen and (max-width:520px){
+    .text{
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        color: black;
+        font-size: 10px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }
+
+}
